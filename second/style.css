@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+section {
+	height: 1500px;
+	background-color: #d6d6d6;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+}
+
+header {
+	height: 31%;
+	width: 90%;
+	background-color: white;
+	margin-top: 3%;
+}
+
+p {
+	margin: 0;
+	padding: 25px;
+	text-align: justify;
+	line-height: 1.5em;
+	font-family: Arial;
+}
+
+.top {
+	height: 70%;
+}
+
+.buttonsbar {
+	height: 30%;
+	width: 60%;
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button {
+	height: 70%;
+	width: 42.5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Arial;
+	font-size: 30px;
+	color: white;
+}
+
+.leftbutton {
+	background-color: red;
+	margin-left: 5%;
+}
+
+.rightbutton {
+	background-color: blue;
+	margin-right: 5%;
+}
+
+article {
+	height: 61%;
+	width: 90%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 3%;
+}
+
+.insert {
+	height: 65%;
+	width: 96%;
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial;
+	font-size: 50px;
+	color: white;
+}
+
+.bottom {
+	height: 30%;
+}
+
+footer {
+	height: 10%;
+	background-color: #333333;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.buttonsbar2 {
+	width: 30%;
+	height: 100%;
+	display: flex;	
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.button2 {
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+}
